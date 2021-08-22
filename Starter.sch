@@ -14808,6 +14808,129 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-amp" urn="urn:adsk.eagle:library:127">
+<description>&lt;b&gt;AMP Connectors&lt;/b&gt;&lt;p&gt;
+RJ45 Jack connectors&lt;br&gt;
+ Based on the previous libraris:
+ &lt;ul&gt;
+ &lt;li&gt;amp.lbr
+ &lt;li&gt;amp-j.lbr
+ &lt;li&gt;amp-mta.lbr
+ &lt;li&gt;amp-nlok.lbr
+ &lt;li&gt;amp-sim.lbr
+ &lt;li&gt;amp-micro-match.lbr
+ &lt;/ul&gt;
+ Sources :
+ &lt;ul&gt;
+ &lt;li&gt;Catalog 82066 Revised 11-95 
+ &lt;li&gt;Product Guide 296785 Rev. 8-99
+ &lt;li&gt;Product Guide CD-ROM 1999
+ &lt;li&gt;www.amp.com
+ &lt;/ul&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="520250-1" urn="urn:adsk.eagle:footprint:8080158/1" library_version="4">
+<description>&lt;b&gt;Modular Jack&lt;/b&gt;&lt;p&gt;with Panel Stops</description>
+<wire x1="6.562" y1="11.044" x2="6.562" y2="-9.538" width="0.2032" layer="21"/>
+<wire x1="-6.562" y1="-9.538" x2="-6.562" y2="11.044" width="0.2032" layer="21"/>
+<wire x1="-6.562" y1="11.044" x2="-3.429" y2="11.049" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="11.044" x2="-2.159" y2="11.044" width="0.2032" layer="21"/>
+<wire x1="-1.651" y1="11.049" x2="-0.889" y2="11.049" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="11.049" x2="0.381" y2="11.049" width="0.2032" layer="21"/>
+<wire x1="0.889" y1="11.049" x2="1.651" y2="11.049" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="11.044" x2="2.921" y2="11.0439" width="0.2032" layer="21"/>
+<wire x1="3.429" y1="11.049" x2="6.562" y2="11.044" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="7.239" x2="-1.651" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="-0.889" y1="9.779" x2="-0.381" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="0.381" y1="7.239" x2="0.889" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="11.049" x2="-2.159" y2="11.044" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="11.044" x2="-2.159" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="-0.889" y1="11.049" x2="-0.889" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="-1.651" y1="11.049" x2="-1.651" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="0.381" y1="11.049" x2="0.381" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="11.049" x2="-0.381" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="1.651" y1="11.049" x2="1.651" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="0.889" y1="11.049" x2="0.889" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="1.651" y1="9.779" x2="2.159" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="6.5405" y1="-6.9215" x2="-6.5405" y2="-6.9215" width="0.0508" layer="21"/>
+<wire x1="2.159" y1="11.049" x2="2.159" y2="11.044" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="11.044" x2="2.159" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="6.477" y1="-9.652" x2="-6.477" y2="-9.652" width="0.2032" layer="21"/>
+<wire x1="-3.429" y1="9.779" x2="-2.921" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="-3.429" y1="11.049" x2="-3.429" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="-2.921" y1="11.049" x2="-2.921" y2="9.779" width="0.2032" layer="21"/>
+<wire x1="2.921" y1="7.239" x2="3.429" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="2.921" y1="11.0491" x2="2.921" y2="7.239" width="0.2032" layer="21"/>
+<wire x1="3.429" y1="11.049" x2="3.429" y2="7.239" width="0.2032" layer="21"/>
+<pad name="2" x="0.635" y="6.35" drill="0.889"/>
+<pad name="1" x="-0.635" y="8.89" drill="0.889"/>
+<text x="-7.366" y="-4.191" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.89" y="-4.826" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="6.477" y1="-6.985" x2="7.366" y2="-5.842" layer="21"/>
+<rectangle x1="-7.366" y1="-6.985" x2="-6.604" y2="-5.842" layer="21"/>
+<hole x="-5.08" y="0" drill="3.2512"/>
+<hole x="5.08" y="0" drill="3.2512"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="520250-1" urn="urn:adsk.eagle:package:8081424/1" type="box" library_version="4">
+<description>&lt;b&gt;Modular Jack&lt;/b&gt;&lt;p&gt;with Panel Stops</description>
+<packageinstances>
+<packageinstance name="520250-1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JACK2" urn="urn:adsk.eagle:symbol:8079791/1" library_version="4">
+<wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="3.048" y1="-0.508" x2="5.08" y2="-0.508" width="0.1998" layer="94"/>
+<wire x1="5.08" y1="-0.508" x2="5.08" y2="0.254" width="0.1998" layer="94"/>
+<wire x1="5.08" y1="0.254" x2="6.096" y2="0.254" width="0.1998" layer="94"/>
+<wire x1="6.096" y1="0.254" x2="6.096" y2="2.286" width="0.1998" layer="94"/>
+<wire x1="6.096" y1="2.286" x2="5.08" y2="2.286" width="0.1998" layer="94"/>
+<wire x1="5.08" y1="2.286" x2="5.08" y2="3.048" width="0.1998" layer="94"/>
+<wire x1="5.08" y1="3.048" x2="3.048" y2="3.048" width="0.1998" layer="94"/>
+<wire x1="3.048" y1="3.048" x2="3.048" y2="1.524" width="0.1998" layer="94"/>
+<wire x1="3.048" y1="1.524" x2="3.048" y2="1.016" width="0.1998" layer="94"/>
+<wire x1="3.048" y1="1.016" x2="3.048" y2="-0.508" width="0.1998" layer="94"/>
+<wire x1="3.048" y1="1.524" x2="3.81" y2="1.524" width="0.1998" layer="94"/>
+<wire x1="3.048" y1="1.016" x2="3.81" y2="1.016" width="0.1998" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="520250-1" urn="urn:adsk.eagle:component:8082049/2" prefix="J" uservalue="yes" library_version="4">
+<description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="JACK2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="520250-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8081424/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14834,13 +14957,16 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="520250-1" device="" package3d_urn="urn:adsk.eagle:package:8081424/1"/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="172.72" y="25.4" size="5.08" layer="94">Starter Project</text>
 <text x="185.42" y="7.62" size="5.08" layer="94">Revision 1</text>
-<text x="101.6" y="144.78" size="1.778" layer="97" align="center">5V Voltage Regulator</text>
+<text x="96.52" y="147.32" size="1.778" layer="97" align="center">5V Voltage Regulator</text>
 <wire x1="91.44" y1="124.46" x2="91.44" y2="115.57" width="0.1524" layer="97"/>
 <wire x1="91.44" y1="111.76" x2="91.44" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="92.71" y1="105.41" x2="91.44" y2="104.14" width="0.1524" layer="97"/>
@@ -14909,6 +15035,16 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="P+1" gate="1" x="106.68" y="134.62" smashed="yes">
 <attribute name="VALUE" x="109.22" y="137.16" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="J1" gate="G$1" x="121.92" y="137.16" smashed="yes">
+<attribute name="NAME" x="121.92" y="142.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="119.38" y="134.112" size="1.778" layer="96"/>
+</instance>
+<instance part="P+3" gate="1" x="116.84" y="147.32" smashed="yes">
+<attribute name="VALUE" x="114.3" y="142.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="116.84" y="132.08" smashed="yes">
+<attribute name="VALUE" x="114.3" y="129.54" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14933,6 +15069,12 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="106.68" y1="106.68" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="116.84" y1="134.62" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="137.16" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14986,6 +15128,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="81.28" y1="137.62" x2="71.12" y2="137.62" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="71.12" y1="144.78" x2="71.12" y2="137.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="116.84" y1="144.78" x2="116.84" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
