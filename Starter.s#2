@@ -14838,6 +14838,8 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="172.72" y="25.4" size="5.08" layer="94">Starter Project</text>
+<text x="185.42" y="7.62" size="5.08" layer="94">Revision 1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
